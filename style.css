@@ -57,7 +57,7 @@ button {
     border: none;
     font-size: 16px;
     font-weight: lighter;
-    width: 100px;
+    width: 130px;
     height: 45px;
     margin: 25px auto;
 }
@@ -65,6 +65,10 @@ button {
     margin-left: 110px;
 }
 .remember input {
-    width: 17px;
-    height: 17px
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.remember label {
+    display: inline-block;
 }
