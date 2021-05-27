@@ -11,18 +11,21 @@
 
 <body>
     <div class="wrapper">
-        <div class="form-body">
-            <p>Have an account? Sign in</p>
-            <form class="user-info" action="post">
-                <input type="text" placeholder="Username" class="text-input" />
-                <input type="password" placeholder="Password" class="text-input" />
-                <button>login</button>
+        <section>
+            <form>
+                <p>Have an account? Sign in</p>
+                <div class="user-info">
+                    <input type="text" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
+                    <button>login</button>                
+                </div>
+                <div class="remember">
+                    <input type="checkbox" name="remember-me" id="remember-me" />
+                    <label for="remember-me">Remember Me</label>    
+                </div>
             </form>
-            <div class="remember-me">
-                <input type="checkbox" name="remember" id="remember" />
-                <p>Remember Me</p>
-            </div>
-        </div>
+        </section>
+
     </div>
 </body>
 
