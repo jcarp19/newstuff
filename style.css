@@ -37,10 +37,9 @@ form p {
     text-align: center;
 }
 .user-info input {
-    
     width: 368px;
     height: 63px;
-    padding-left: 30px;
+    padding-left: 15px;
     border: 1px solid rgba(0, 0, 0, .1);
     margin-top: 20px;
 }
@@ -63,9 +62,13 @@ button {
 .remember {
     text-align: left;
     margin-left: 100px;
+    vertical-align: middle;
 }
 .remember input {
     width: 18px;
     height: 18px;
     border: 1px solid rgba(0, 0, 0, .1);
+}
+.remember label {
+    font-size: 12px;
 }
